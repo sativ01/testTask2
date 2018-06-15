@@ -46,7 +46,7 @@ response
 ```
                 
 Application should:
-- have a build script (gradle or maven). 
+- have a build script (Gradle or Maven)
 - be n-tier application consisting of controller, service and storage layer
 - have unit tests for controller and service classes 
 - have integration tests   
