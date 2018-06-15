@@ -1,19 +1,9 @@
 # testTask2
 
-Create a pull request here with the implementation of the following task:
+Create a pull request here with the implementation of the assignment below.
 
-Create a java project, that would be packed as a jar and would be have a following public API:
+Create Spring Boot REST API application with these endpoints:
 
-public interface CalculateFactorial {
-    // returns factorial of n, block with exceptions might be present or not by the choice of candidate.
-    Integer factorial(Integer n) <throws Exceptions >;
-}
-Project should have a build script (gradle or maven). Recommended to write at least one test and some javadocs.
-
-Task can be done partially or with any additions (it is up to candidate choice).
-
-
-Create Spring Boot REST API with these endpoints:
 - add two numbers
 ```text
 request
@@ -54,16 +44,9 @@ response
     }
 ]
 ```
-
-
-- parts to be present:
-    - n-tier application
-        - controller layer
-        - service layer
-        - storage layer
-    - integration tets
-    - unit tests
-        - for controller
-        - service classes
-    - build system usage
-        - Gradle or Maven
+                
+Application should:
+- have a build script (gradle or maven). 
+- be n-tier application consisting of controller, service and storage layer
+- have unit tests for controller and service classes 
+- have integration tests   
